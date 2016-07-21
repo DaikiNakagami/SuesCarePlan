@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		377C6A9E1D40FB6100047E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6A9D1D40FB6100047E5D /* AppDelegate.swift */; };
-		377C6AA01D40FB6100047E5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6A9F1D40FB6100047E5D /* ViewController.swift */; };
-		377C6AA31D40FB6100047E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377C6AA11D40FB6100047E5D /* Main.storyboard */; };
-		377C6AA51D40FB6100047E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377C6AA41D40FB6100047E5D /* Assets.xcassets */; };
 		377C6AA81D40FB6100047E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377C6AA61D40FB6100047E5D /* LaunchScreen.storyboard */; };
 		377C6AB31D40FB6200047E5D /* SuesCarePlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AB21D40FB6200047E5D /* SuesCarePlanTests.swift */; };
 		377C6ABE1D40FB6200047E5D /* SuesCarePlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6ABD1D40FB6200047E5D /* SuesCarePlanUITests.swift */; };
+		377C6ACC1D40FDA700047E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377C6ACB1D40FDA700047E5D /* Assets.xcassets */; };
+		377C6ACE1D40FE1200047E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377C6ACD1D40FE1200047E5D /* Main.storyboard */; };
+		377C6AD01D40FE7900047E5D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6ACF1D40FE7900047E5D /* RootViewController.swift */; };
+		377C6AD21D40FEEA00047E5D /* CarePlanStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AD11D40FEE900047E5D /* CarePlanStoreManager.swift */; };
+		377C6AD41D40FF1F00047E5D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AD31D40FF1F00047E5D /* SampleData.swift */; };
+		377C6AD61D40FF5700047E5D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AD51D40FF5700047E5D /* Colors.swift */; };
+		377C6AD91D40FFAF00047E5D /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AD81D40FFAF00047E5D /* Activity.swift */; };
+		377C6ADB1D40FFE100047E5D /* OutdoorWalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6ADA1D40FFE100047E5D /* OutdoorWalk.swift */; };
+		377C6ADD1D41004000047E5D /* TakeMedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6ADC1D41004000047E5D /* TakeMedication.swift */; };
+		377C6ADF1D41006E00047E5D /* TakeParacetamol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6ADE1D41006E00047E5D /* TakeParacetamol.swift */; };
+		377C6AE11D4100B000047E5D /* TakeExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AE01D4100B000047E5D /* TakeExercise.swift */; };
+		377C6AE41D41012700047E5D /* Assessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AE31D41012700047E5D /* Assessment.swift */; };
+		377C6AE61D41016C00047E5D /* HealthSampleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AE51D41016C00047E5D /* HealthSampleBuilder.swift */; };
+		377C6AE81D41018F00047E5D /* KneePain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AE71D41018F00047E5D /* KneePain.swift */; };
+		377C6AEA1D4101DD00047E5D /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AE91D4101DD00047E5D /* Mood.swift */; };
+		377C6AEC1D41020B00047E5D /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AEB1D41020B00047E5D /* Weight.swift */; };
+		377C6AEF1D41028700047E5D /* InsightsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AEE1D41028700047E5D /* InsightsBuilder.swift */; };
+		377C6AF11D4102BB00047E5D /* QueryActivityEventsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AF01D4102BB00047E5D /* QueryActivityEventsOperation.swift */; };
+		377C6AF31D4102DF00047E5D /* BuildInsightsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AF21D4102DF00047E5D /* BuildInsightsOperation.swift */; };
+		377C6AF61D41031700047E5D /* NSCalendar+Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AF51D41031700047E5D /* NSCalendar+Dates.swift */; };
+		377C6AF81D41035300047E5D /* OCKInsightItem+EmptyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AF71D41035300047E5D /* OCKInsightItem+EmptyMessage.swift */; };
+		3DA03CC8686912120499D003 /* Pods_SuesCarePlan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6069C291C45BA918AB95AE1F /* Pods_SuesCarePlan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34A2B2B3B0F2A77F0800E0EC /* Pods-SuesCarePlan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuesCarePlan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuesCarePlan/Pods-SuesCarePlan.debug.xcconfig"; sourceTree = "<group>"; };
 		377C6A9A1D40FB6100047E5D /* SuesCarePlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuesCarePlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		377C6A9D1D40FB6100047E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		377C6A9F1D40FB6100047E5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		377C6AA21D40FB6100047E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		377C6AA41D40FB6100047E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		377C6AA71D40FB6100047E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		377C6AA91D40FB6100047E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		377C6AAE1D40FB6200047E5D /* SuesCarePlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuesCarePlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +64,29 @@
 		377C6AB91D40FB6200047E5D /* SuesCarePlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuesCarePlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377C6ABD1D40FB6200047E5D /* SuesCarePlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuesCarePlanUITests.swift; sourceTree = "<group>"; };
 		377C6ABF1D40FB6200047E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377C6ACB1D40FDA700047E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		377C6ACD1D40FE1200047E5D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		377C6ACF1D40FE7900047E5D /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		377C6AD11D40FEE900047E5D /* CarePlanStoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarePlanStoreManager.swift; sourceTree = "<group>"; };
+		377C6AD31D40FF1F00047E5D /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		377C6AD51D40FF5700047E5D /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		377C6AD81D40FFAF00047E5D /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		377C6ADA1D40FFE100047E5D /* OutdoorWalk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutdoorWalk.swift; sourceTree = "<group>"; };
+		377C6ADC1D41004000047E5D /* TakeMedication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeMedication.swift; sourceTree = "<group>"; };
+		377C6ADE1D41006E00047E5D /* TakeParacetamol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeParacetamol.swift; sourceTree = "<group>"; };
+		377C6AE01D4100B000047E5D /* TakeExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeExercise.swift; sourceTree = "<group>"; };
+		377C6AE31D41012700047E5D /* Assessment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assessment.swift; sourceTree = "<group>"; };
+		377C6AE51D41016C00047E5D /* HealthSampleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthSampleBuilder.swift; sourceTree = "<group>"; };
+		377C6AE71D41018F00047E5D /* KneePain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KneePain.swift; sourceTree = "<group>"; };
+		377C6AE91D4101DD00047E5D /* Mood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		377C6AEB1D41020B00047E5D /* Weight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		377C6AEE1D41028700047E5D /* InsightsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsightsBuilder.swift; sourceTree = "<group>"; };
+		377C6AF01D4102BB00047E5D /* QueryActivityEventsOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryActivityEventsOperation.swift; sourceTree = "<group>"; };
+		377C6AF21D4102DF00047E5D /* BuildInsightsOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildInsightsOperation.swift; sourceTree = "<group>"; };
+		377C6AF51D41031700047E5D /* NSCalendar+Dates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSCalendar+Dates.swift"; sourceTree = "<group>"; };
+		377C6AF71D41035300047E5D /* OCKInsightItem+EmptyMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OCKInsightItem+EmptyMessage.swift"; sourceTree = "<group>"; };
+		3AFFC75C0FB10BDA4AD6BD37 /* Pods-SuesCarePlan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuesCarePlan.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuesCarePlan/Pods-SuesCarePlan.release.xcconfig"; sourceTree = "<group>"; };
+		6069C291C45BA918AB95AE1F /* Pods_SuesCarePlan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuesCarePlan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA03CC8686912120499D003 /* Pods_SuesCarePlan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +122,8 @@
 				377C6AB11D40FB6200047E5D /* SuesCarePlanTests */,
 				377C6ABC1D40FB6200047E5D /* SuesCarePlanUITests */,
 				377C6A9B1D40FB6100047E5D /* Products */,
+				F3F72A5713B8523F0EEE7DA6 /* Pods */,
+				7BBC54D9F62CFC9F1922FF27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +140,11 @@
 		377C6A9C1D40FB6100047E5D /* SuesCarePlan */ = {
 			isa = PBXGroup;
 			children = (
-				377C6A9D1D40FB6100047E5D /* AppDelegate.swift */,
-				377C6A9F1D40FB6100047E5D /* ViewController.swift */,
-				377C6AA11D40FB6100047E5D /* Main.storyboard */,
-				377C6AA41D40FB6100047E5D /* Assets.xcassets */,
-				377C6AA61D40FB6100047E5D /* LaunchScreen.storyboard */,
-				377C6AA91D40FB6100047E5D /* Info.plist */,
+				377C6AD71D40FF9A00047E5D /* Activities */,
+				377C6AF91D41062B00047E5D /* App */,
+				377C6AE21D4100D700047E5D /* Assessments */,
+				377C6AF41D4102F700047E5D /* Extensions */,
+				377C6AED1D41026F00047E5D /* Insights */,
 			);
 			path = SuesCarePlan;
 			sourceTree = "<group>";
@@ -125,6 +167,82 @@
 			path = SuesCarePlanUITests;
 			sourceTree = "<group>";
 		};
+		377C6AD71D40FF9A00047E5D /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				377C6AD81D40FFAF00047E5D /* Activity.swift */,
+				377C6ADA1D40FFE100047E5D /* OutdoorWalk.swift */,
+				377C6ADC1D41004000047E5D /* TakeMedication.swift */,
+				377C6ADE1D41006E00047E5D /* TakeParacetamol.swift */,
+				377C6AE01D4100B000047E5D /* TakeExercise.swift */,
+			);
+			name = Activities;
+			sourceTree = "<group>";
+		};
+		377C6AE21D4100D700047E5D /* Assessments */ = {
+			isa = PBXGroup;
+			children = (
+				377C6AE31D41012700047E5D /* Assessment.swift */,
+				377C6AE51D41016C00047E5D /* HealthSampleBuilder.swift */,
+				377C6AE71D41018F00047E5D /* KneePain.swift */,
+				377C6AE91D4101DD00047E5D /* Mood.swift */,
+				377C6AEB1D41020B00047E5D /* Weight.swift */,
+			);
+			name = Assessments;
+			sourceTree = "<group>";
+		};
+		377C6AED1D41026F00047E5D /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				377C6AEE1D41028700047E5D /* InsightsBuilder.swift */,
+				377C6AF01D4102BB00047E5D /* QueryActivityEventsOperation.swift */,
+				377C6AF21D4102DF00047E5D /* BuildInsightsOperation.swift */,
+			);
+			name = Insights;
+			sourceTree = "<group>";
+		};
+		377C6AF41D4102F700047E5D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				377C6AF51D41031700047E5D /* NSCalendar+Dates.swift */,
+				377C6AF71D41035300047E5D /* OCKInsightItem+EmptyMessage.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		377C6AF91D41062B00047E5D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				377C6A9D1D40FB6100047E5D /* AppDelegate.swift */,
+				377C6ACB1D40FDA700047E5D /* Assets.xcassets */,
+				377C6AD11D40FEE900047E5D /* CarePlanStoreManager.swift */,
+				377C6AD51D40FF5700047E5D /* Colors.swift */,
+				377C6AA91D40FB6100047E5D /* Info.plist */,
+				377C6AA61D40FB6100047E5D /* LaunchScreen.storyboard */,
+				377C6ACD1D40FE1200047E5D /* Main.storyboard */,
+				377C6ACF1D40FE7900047E5D /* RootViewController.swift */,
+				377C6AD31D40FF1F00047E5D /* SampleData.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		7BBC54D9F62CFC9F1922FF27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6069C291C45BA918AB95AE1F /* Pods_SuesCarePlan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3F72A5713B8523F0EEE7DA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34A2B2B3B0F2A77F0800E0EC /* Pods-SuesCarePlan.debug.xcconfig */,
+				3AFFC75C0FB10BDA4AD6BD37 /* Pods-SuesCarePlan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 377C6AC21D40FB6200047E5D /* Build configuration list for PBXNativeTarget "SuesCarePlan" */;
 			buildPhases = (
+				9E86899E9E6D54F0E42E42A2 /* Check Pods Manifest.lock */,
 				377C6A961D40FB6100047E5D /* Sources */,
 				377C6A971D40FB6100047E5D /* Frameworks */,
 				377C6A981D40FB6100047E5D /* Resources */,
+				37E96470D9756AE0A537241F /* Embed Pods Frameworks */,
+				57FF3BCDB42291BDB8E42F3A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +350,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377C6ACE1D40FE1200047E5D /* Main.storyboard in Resources */,
 				377C6AA81D40FB6100047E5D /* LaunchScreen.storyboard in Resources */,
-				377C6AA51D40FB6100047E5D /* Assets.xcassets in Resources */,
-				377C6AA31D40FB6100047E5D /* Main.storyboard in Resources */,
+				377C6ACC1D40FDA700047E5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +372,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37E96470D9756AE0A537241F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuesCarePlan/Pods-SuesCarePlan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57FF3BCDB42291BDB8E42F3A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuesCarePlan/Pods-SuesCarePlan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E86899E9E6D54F0E42E42A2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		377C6A961D40FB6100047E5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377C6AA01D40FB6100047E5D /* ViewController.swift in Sources */,
+				377C6AEF1D41028700047E5D /* InsightsBuilder.swift in Sources */,
+				377C6AF61D41031700047E5D /* NSCalendar+Dates.swift in Sources */,
+				377C6AF11D4102BB00047E5D /* QueryActivityEventsOperation.swift in Sources */,
+				377C6ADB1D40FFE100047E5D /* OutdoorWalk.swift in Sources */,
+				377C6ADD1D41004000047E5D /* TakeMedication.swift in Sources */,
+				377C6AD91D40FFAF00047E5D /* Activity.swift in Sources */,
+				377C6AE61D41016C00047E5D /* HealthSampleBuilder.swift in Sources */,
+				377C6AD01D40FE7900047E5D /* RootViewController.swift in Sources */,
+				377C6AEC1D41020B00047E5D /* Weight.swift in Sources */,
+				377C6AD61D40FF5700047E5D /* Colors.swift in Sources */,
+				377C6AE81D41018F00047E5D /* KneePain.swift in Sources */,
+				377C6AD21D40FEEA00047E5D /* CarePlanStoreManager.swift in Sources */,
+				377C6AE11D4100B000047E5D /* TakeExercise.swift in Sources */,
+				377C6AE41D41012700047E5D /* Assessment.swift in Sources */,
+				377C6AEA1D4101DD00047E5D /* Mood.swift in Sources */,
+				377C6AF81D41035300047E5D /* OCKInsightItem+EmptyMessage.swift in Sources */,
 				377C6A9E1D40FB6100047E5D /* AppDelegate.swift in Sources */,
+				377C6AF31D4102DF00047E5D /* BuildInsightsOperation.swift in Sources */,
+				377C6ADF1D41006E00047E5D /* TakeParacetamol.swift in Sources */,
+				377C6AD41D40FF1F00047E5D /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +480,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		377C6AA11D40FB6100047E5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				377C6AA21D40FB6100047E5D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		377C6AA61D40FB6100047E5D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -399,8 +578,10 @@
 		};
 		377C6AC31D40FB6200047E5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A2B2B3B0F2A77F0800E0EC /* Pods-SuesCarePlan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SuesCarePlan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.donson.SuesCarePlan;
@@ -410,8 +591,10 @@
 		};
 		377C6AC41D40FB6200047E5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AFFC75C0FB10BDA4AD6BD37 /* Pods-SuesCarePlan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SuesCarePlan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.donson.SuesCarePlan;
@@ -484,6 +667,7 @@
 				377C6AC41D40FB6200047E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377C6AC51D40FB6200047E5D /* Build configuration list for PBXNativeTarget "SuesCarePlanTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +676,7 @@
 				377C6AC71D40FB6200047E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377C6AC81D40FB6200047E5D /* Build configuration list for PBXNativeTarget "SuesCarePlanUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +685,7 @@
 				377C6ACA1D40FB6200047E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
