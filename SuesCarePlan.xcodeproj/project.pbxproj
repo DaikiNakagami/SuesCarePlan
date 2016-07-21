@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377C6A9E1D40FB6100047E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6A9D1D40FB6100047E5D /* AppDelegate.swift */; };
+		377C6AA01D40FB6100047E5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6A9F1D40FB6100047E5D /* ViewController.swift */; };
+		377C6AA31D40FB6100047E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377C6AA11D40FB6100047E5D /* Main.storyboard */; };
+		377C6AA51D40FB6100047E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377C6AA41D40FB6100047E5D /* Assets.xcassets */; };
+		377C6AA81D40FB6100047E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377C6AA61D40FB6100047E5D /* LaunchScreen.storyboard */; };
+		377C6AB31D40FB6200047E5D /* SuesCarePlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6AB21D40FB6200047E5D /* SuesCarePlanTests.swift */; };
+		377C6ABE1D40FB6200047E5D /* SuesCarePlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C6ABD1D40FB6200047E5D /* SuesCarePlanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		377C6AAF1D40FB6200047E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377C6A921D40FB6100047E5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377C6A991D40FB6100047E5D;
+			remoteInfo = SuesCarePlan;
+		};
+		377C6ABA1D40FB6200047E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377C6A921D40FB6100047E5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377C6A991D40FB6100047E5D;
+			remoteInfo = SuesCarePlan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		377C6A9A1D40FB6100047E5D /* SuesCarePlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuesCarePlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		377C6A9D1D40FB6100047E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		377C6A9F1D40FB6100047E5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		377C6AA21D40FB6100047E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		377C6AA41D40FB6100047E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		377C6AA71D40FB6100047E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		377C6AA91D40FB6100047E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377C6AAE1D40FB6200047E5D /* SuesCarePlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuesCarePlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377C6AB21D40FB6200047E5D /* SuesCarePlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuesCarePlanTests.swift; sourceTree = "<group>"; };
+		377C6AB41D40FB6200047E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377C6AB91D40FB6200047E5D /* SuesCarePlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuesCarePlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377C6ABD1D40FB6200047E5D /* SuesCarePlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuesCarePlanUITests.swift; sourceTree = "<group>"; };
+		377C6ABF1D40FB6200047E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377C6A971D40FB6100047E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377C6AAB1D40FB6200047E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377C6AB61D40FB6200047E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		377C6A911D40FB6100047E5D = {
+			isa = PBXGroup;
+			children = (
+				377C6A9C1D40FB6100047E5D /* SuesCarePlan */,
+				377C6AB11D40FB6200047E5D /* SuesCarePlanTests */,
+				377C6ABC1D40FB6200047E5D /* SuesCarePlanUITests */,
+				377C6A9B1D40FB6100047E5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		377C6A9B1D40FB6100047E5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				377C6A9A1D40FB6100047E5D /* SuesCarePlan.app */,
+				377C6AAE1D40FB6200047E5D /* SuesCarePlanTests.xctest */,
+				377C6AB91D40FB6200047E5D /* SuesCarePlanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		377C6A9C1D40FB6100047E5D /* SuesCarePlan */ = {
+			isa = PBXGroup;
+			children = (
+				377C6A9D1D40FB6100047E5D /* AppDelegate.swift */,
+				377C6A9F1D40FB6100047E5D /* ViewController.swift */,
+				377C6AA11D40FB6100047E5D /* Main.storyboard */,
+				377C6AA41D40FB6100047E5D /* Assets.xcassets */,
+				377C6AA61D40FB6100047E5D /* LaunchScreen.storyboard */,
+				377C6AA91D40FB6100047E5D /* Info.plist */,
+			);
+			path = SuesCarePlan;
+			sourceTree = "<group>";
+		};
+		377C6AB11D40FB6200047E5D /* SuesCarePlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				377C6AB21D40FB6200047E5D /* SuesCarePlanTests.swift */,
+				377C6AB41D40FB6200047E5D /* Info.plist */,
+			);
+			path = SuesCarePlanTests;
+			sourceTree = "<group>";
+		};
+		377C6ABC1D40FB6200047E5D /* SuesCarePlanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				377C6ABD1D40FB6200047E5D /* SuesCarePlanUITests.swift */,
+				377C6ABF1D40FB6200047E5D /* Info.plist */,
+			);
+			path = SuesCarePlanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		377C6A991D40FB6100047E5D /* SuesCarePlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377C6AC21D40FB6200047E5D /* Build configuration list for PBXNativeTarget "SuesCarePlan" */;
+			buildPhases = (
+				377C6A961D40FB6100047E5D /* Sources */,
+				377C6A971D40FB6100047E5D /* Frameworks */,
+				377C6A981D40FB6100047E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuesCarePlan;
+			productName = SuesCarePlan;
+			productReference = 377C6A9A1D40FB6100047E5D /* SuesCarePlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		377C6AAD1D40FB6200047E5D /* SuesCarePlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377C6AC51D40FB6200047E5D /* Build configuration list for PBXNativeTarget "SuesCarePlanTests" */;
+			buildPhases = (
+				377C6AAA1D40FB6200047E5D /* Sources */,
+				377C6AAB1D40FB6200047E5D /* Frameworks */,
+				377C6AAC1D40FB6200047E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377C6AB01D40FB6200047E5D /* PBXTargetDependency */,
+			);
+			name = SuesCarePlanTests;
+			productName = SuesCarePlanTests;
+			productReference = 377C6AAE1D40FB6200047E5D /* SuesCarePlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		377C6AB81D40FB6200047E5D /* SuesCarePlanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377C6AC81D40FB6200047E5D /* Build configuration list for PBXNativeTarget "SuesCarePlanUITests" */;
+			buildPhases = (
+				377C6AB51D40FB6200047E5D /* Sources */,
+				377C6AB61D40FB6200047E5D /* Frameworks */,
+				377C6AB71D40FB6200047E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377C6ABB1D40FB6200047E5D /* PBXTargetDependency */,
+			);
+			name = SuesCarePlanUITests;
+			productName = SuesCarePlanUITests;
+			productReference = 377C6AB91D40FB6200047E5D /* SuesCarePlanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		377C6A921D40FB6100047E5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Graham Barker";
+				TargetAttributes = {
+					377C6A991D40FB6100047E5D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					377C6AAD1D40FB6200047E5D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 377C6A991D40FB6100047E5D;
+					};
+					377C6AB81D40FB6200047E5D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 377C6A991D40FB6100047E5D;
+					};
+				};
+			};
+			buildConfigurationList = 377C6A951D40FB6100047E5D /* Build configuration list for PBXProject "SuesCarePlan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 377C6A911D40FB6100047E5D;
+			productRefGroup = 377C6A9B1D40FB6100047E5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377C6A991D40FB6100047E5D /* SuesCarePlan */,
+				377C6AAD1D40FB6200047E5D /* SuesCarePlanTests */,
+				377C6AB81D40FB6200047E5D /* SuesCarePlanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		377C6A981D40FB6100047E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377C6AA81D40FB6100047E5D /* LaunchScreen.storyboard in Resources */,
+				377C6AA51D40FB6100047E5D /* Assets.xcassets in Resources */,
+				377C6AA31D40FB6100047E5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377C6AAC1D40FB6200047E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377C6AB71D40FB6200047E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		377C6A961D40FB6100047E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377C6AA01D40FB6100047E5D /* ViewController.swift in Sources */,
+				377C6A9E1D40FB6100047E5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377C6AAA1D40FB6200047E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377C6AB31D40FB6200047E5D /* SuesCarePlanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377C6AB51D40FB6200047E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377C6ABE1D40FB6200047E5D /* SuesCarePlanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		377C6AB01D40FB6200047E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377C6A991D40FB6100047E5D /* SuesCarePlan */;
+			targetProxy = 377C6AAF1D40FB6200047E5D /* PBXContainerItemProxy */;
+		};
+		377C6ABB1D40FB6200047E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377C6A991D40FB6100047E5D /* SuesCarePlan */;
+			targetProxy = 377C6ABA1D40FB6200047E5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		377C6AA11D40FB6100047E5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377C6AA21D40FB6100047E5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		377C6AA61D40FB6100047E5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377C6AA71D40FB6100047E5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		377C6AC01D40FB6200047E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		377C6AC11D40FB6200047E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		377C6AC31D40FB6200047E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuesCarePlan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donson.SuesCarePlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		377C6AC41D40FB6200047E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuesCarePlan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donson.SuesCarePlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		377C6AC61D40FB6200047E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuesCarePlanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donson.SuesCarePlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuesCarePlan.app/SuesCarePlan";
+			};
+			name = Debug;
+		};
+		377C6AC71D40FB6200047E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuesCarePlanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donson.SuesCarePlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuesCarePlan.app/SuesCarePlan";
+			};
+			name = Release;
+		};
+		377C6AC91D40FB6200047E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuesCarePlanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donson.SuesCarePlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuesCarePlan;
+			};
+			name = Debug;
+		};
+		377C6ACA1D40FB6200047E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuesCarePlanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donson.SuesCarePlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuesCarePlan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		377C6A951D40FB6100047E5D /* Build configuration list for PBXProject "SuesCarePlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377C6AC01D40FB6200047E5D /* Debug */,
+				377C6AC11D40FB6200047E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377C6AC21D40FB6200047E5D /* Build configuration list for PBXNativeTarget "SuesCarePlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377C6AC31D40FB6200047E5D /* Debug */,
+				377C6AC41D40FB6200047E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		377C6AC51D40FB6200047E5D /* Build configuration list for PBXNativeTarget "SuesCarePlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377C6AC61D40FB6200047E5D /* Debug */,
+				377C6AC71D40FB6200047E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		377C6AC81D40FB6200047E5D /* Build configuration list for PBXNativeTarget "SuesCarePlanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377C6AC91D40FB6200047E5D /* Debug */,
+				377C6ACA1D40FB6200047E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 377C6A921D40FB6100047E5D /* Project object */;
+}
